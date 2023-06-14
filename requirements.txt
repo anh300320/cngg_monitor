@@ -1,0 +1,2 @@
+dataclass-wizard==0.22.2
+WMI==1.4.9

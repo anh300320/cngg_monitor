@@ -1,0 +1,9 @@
+process: utsdeamon
+auto_restart: enabled
+exe_file_location: ""
+sender:
+  email: ""
+  password: ""
+alert_emails:
+  - ngohoanganh300320@gmail.com
+  - hoanganh@dytechlab.com
