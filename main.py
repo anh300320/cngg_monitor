@@ -49,7 +49,9 @@ if __name__ == '__main__':
         cfg = Config.from_yaml(fd.read())
     w = wmi.WMI()
     running = False
+    processes = []
     for process in w.Win32_Process():
+        processes.append(process.Name)
         if cfg.process in process.Name:
             running = True
     if not running:

@@ -1,9 +1,8 @@
-process: utsdeamon
+process: dtl_cngg_test
 auto_restart: enabled
-exe_file_location: ""
+exe_file_location: "E:\\HAnh\\C++\\dtl_cngg_test.exe"
 sender:
-  email: ""
-  password: ""
+  email: "hoanganh@dytechlab.com"
+  password: "Dynamic300320"
 alert_emails:
-  - ngohoanganh300320@gmail.com
   - hoanganh@dytechlab.com
